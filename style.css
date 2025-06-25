@@ -2,12 +2,12 @@
     margin: 0;
     border: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 .container{
   font-family: "Caprasimo", serif;
   font-weight: 400;
   font-style: normal;
+  overflow-x: hidden;
 }
 .cebolla{
     position: absolute;
@@ -38,7 +38,6 @@ z-index: 60;
     text-align: justify;
     padding-right: 50px;
     width: 300px;
-    font
 }
 .subtitulo{
     font-family: "Josefin Sans", sans-serif;
@@ -56,7 +55,7 @@ width: 550px;
     color: white;
     display: flex;
     flex-direction: column;
-     align-items: center;
+    align-items: center;
     padding: 50px;
 
 
@@ -155,14 +154,14 @@ body{
 .cebolla{
     opacity: 0.5;
 }
-  .imagen {
-    padding: 20px 0;
-  }
+  
   .segunda_seccion{
     width: 100%;
+    padding: 50px 20px;
+
   }
   .mapa{
-    width: 500px;
+    padding: 15px;
   }
 .ultima_seccion{
      display: flex;

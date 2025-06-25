@@ -101,7 +101,6 @@ width: 550px;
 }
 .ultima_seccion{
     background: beige;
-    height: 250px;
     display: flex;
     flex-direction: row;
      align-items: center;

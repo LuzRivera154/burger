@@ -2,6 +2,7 @@
     margin: 0;
     border: 0;
     padding: 0;
+          overflow: hidden;
 }
 .container{
   font-family: "Caprasimo", serif;
@@ -177,9 +178,25 @@ p{
         padding: 10px 15px;
 }
 }
-@media (max-width: 516px) {
+@media (max-width: 600px) {
+
   .primera_seccion{
 
     width: 100%;
   }
+.imagen{
+  width: 300px;
+  height: auto;
+}
+.cebolla{ 
+    display: none; 
+}
+
+.mapa{
+  padding: 20px;
+  width: 150px;
+}
+.iconoq{
+  font-size: 30px;
+}
 }
